@@ -27,6 +27,8 @@ const linkAction = () => {
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 /*=============== CHANGE BACKGROUND HEADER ===============*/
+
+/*=============== ADD SHADOW HEADER ===============*/
 const shadowHeader = () => {
 
     const header = document.getElementById('header')
@@ -37,5 +39,5 @@ const shadowHeader = () => {
 window.addEventListener('scroll', shadowHeader)
 
 
-/*=============== ADD SHADOW HEADER ===============*/
+
 
